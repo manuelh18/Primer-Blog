@@ -46,18 +46,11 @@ section article h2, section article p {
 
 footer {
     background-color: #222;
-    padding: 3rem 13rem 10rem 13rem;
+    padding: 3rem 13rem 5rem 13rem;
     color: #fff;
-}
-
-footer section {
-    float: right;
-}
-
-footer div{
-    margin: 0;
-    padding: 3rem 15rem 0 0;
-    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer a {
